@@ -8,13 +8,16 @@ export default function Navbar() {
   const [open, setOpen] = useState(false)
 
   return (
-    <nav className="sticky top-0 z-50 backdrop-blur-lg bg-[#020617]/80 border-b border-white/10 relative">
+    <nav className="sticky top-0 z-50 backdrop-blur-lg bg-[#020617]/80 border-b border-white/10">
       
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
-        {/* 🔴 Logo */}
+        {/* 🔴 ✅ FIXED LOGO */}
         <Link to="/" className="flex items-center gap-2">
-          {logo}"
+          <img
+            src={logo}
+            alt="Kolodis IT Services logo"
+            className="h-16 w-auto drop-shadow-[0_0_8px_rgba(239,68,68,0.6)] hover:drop-shadow-[0_0_16px_rgba(239,68,68,0.9)] transition"
           />
         </Link>
 
@@ -46,7 +49,6 @@ export default function Navbar() {
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden text-white text-2xl"
-          aria-label="Toggle menu"
         >
           {open ? "✕" : "☰"}
         </button>
@@ -72,7 +74,6 @@ export default function Navbar() {
             Case Studies
           </Link>
 
-          {/* 🔴 CTA */}
           <Link
             onClick={() => setOpen(false)}
             to="/contact"
@@ -81,7 +82,7 @@ export default function Navbar() {
             Contact
           </Link>
 
-          {/* 🌙 Theme Toggle */}
+          {/* Theme Toggle */}
           <button
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             className="w-full border border-white/10 rounded-lg px-4 py-2 text-sm hover:border-red-400 transition"
