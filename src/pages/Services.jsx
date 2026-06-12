@@ -3,14 +3,17 @@ import MainLayout from "../layouts/MainLayout"
 export default function Services() {
   return (
     <MainLayout>
-      <div className="px-6 py-20">
+      <div className="px-6 py-20 bg-[#020617] min-h-screen text-white relative">
         
-        <div className="max-w-7xl mx-auto">
+        {/* 🔴 Background Glow */}
+        <div className="absolute inset-0 bg-gradient-to-r from-red-500/5 to-orange-500/5 blur-3xl opacity-40"></div>
+
+        <div className="max-w-7xl mx-auto relative z-10">
 
           {/* 🔥 Page Header */}
-          <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white">
+          <h2 className="text-4xl md:text-5xl font-bold mb-8">
             Our{" "}
-            <span className="bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
               Services
             </span>
           </h2>
@@ -24,8 +27,8 @@ export default function Services() {
           <div className="grid md:grid-cols-2 gap-8 mb-20">
             
             {/* Service 1 */}
-            <div className="card">
-              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
+            <div className="card hover:shadow-[0_10px_30px_rgba(239,68,68,0.15)] transform hover:-translate-y-1 transition">
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
                 Strategy & Growth Consulting
               </h3>
               <p className="text-gray-400 leading-relaxed mb-4">
@@ -41,8 +44,8 @@ export default function Services() {
             </div>
 
             {/* Service 2 */}
-            <div className="card">
-              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
+            <div className="card hover:shadow-[0_10px_30px_rgba(239,68,68,0.15)] transform hover:-translate-y-1 transition">
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
                 Digital & Cloud Transformation
               </h3>
               <p className="text-gray-400 leading-relaxed mb-4">
@@ -58,8 +61,8 @@ export default function Services() {
             </div>
 
             {/* Service 3 */}
-            <div className="card">
-              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
+            <div className="card hover:shadow-[0_10px_30px_rgba(239,68,68,0.15)] transform hover:-translate-y-1 transition">
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
                 Product & Engineering Advisory
               </h3>
               <p className="text-gray-400 leading-relaxed mb-4">
@@ -75,8 +78,8 @@ export default function Services() {
             </div>
 
             {/* Service 4 */}
-            <div className="card">
-              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
+            <div className="card hover:shadow-[0_10px_30px_rgba(239,68,68,0.15)] transform hover:-translate-y-1 transition">
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
                 Data & AI Enablement
               </h3>
               <p className="text-gray-400 leading-relaxed mb-4">
@@ -93,10 +96,10 @@ export default function Services() {
           </div>
 
           {/* 💎 How We Work */}
-          <div className="max-w-4xl mb-20 card">
-            <h3 className="text-2xl font-semibold mb-4 text-white">
+          <div className="max-w-4xl mb-20 card border border-red-500/10">
+            <h3 className="text-2xl font-semibold mb-4">
               How{" "}
-              <span className="bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
                 We Work
               </span>
             </h3>
@@ -108,8 +111,8 @@ export default function Services() {
           </div>
 
           {/* 🚀 CTA */}
-          <div className="card text-center">
-            <h3 className="text-3xl font-bold mb-4 text-white">
+          <div className="card text-center border border-red-500/10">
+            <h3 className="text-3xl font-bold mb-4">
               Ready to Transform Your Business?
             </h3>
             <p className="text-gray-400 mb-6">
@@ -117,7 +120,7 @@ export default function Services() {
             </p>
             <a
               href="#/contact"
-              className="inline-block px-6 py-3 rounded-lg font-medium text-white bg-gradient-to-r from-emerald-500 to-sky-500 hover:from-emerald-400 hover:to-sky-400 transition shadow-[0_0_25px_rgba(56,189,248,0.4)]"
+              className="inline-block px-6 py-3 rounded-lg font-medium text-white bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-400 hover:to-orange-400 transition shadow-[0_0_25px_rgba(239,68,68,0.4)]"
             >
               Book a Consultation
             </a>
