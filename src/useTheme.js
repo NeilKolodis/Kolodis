@@ -1,12 +1,32 @@
 import { useEffect, useState } from "react"
 
 export default function useTheme() {
-  const [theme, setTheme] = useState(
-    localStorage.theme || "light"
-  )
+  const getInitialTheme = () => {
+    // ✅ Check saved preference
+    if (typeof window !== "undefined") {
+      if (localStorage.theme) {
+        return localStorage.theme
+      }
+
+      // ✅ Optional: detect system theme
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        return "dark"
+      }
+    }
+
+    // ✅ Default (better for your design)
+    return "dark"
+  }
+
+  const [theme, setTheme] = useState(getInitialTheme)
 
   useEffect(() => {
-    document.documentElement.classList.toggle("dark", theme === "dark")
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark")
+    } else {
+      document.documentElement.classList.remove("dark")
+    }
+
     localStorage.theme = theme
   }, [theme])
 
