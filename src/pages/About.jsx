@@ -11,13 +11,13 @@ export default function About() {
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white">
             About{" "}
             <span className="bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
-              Qube IT consulting
+              Kolodis IT Services
             </span>
           </h2>
 
           {/* Intro */}
           <p className="text-lg md:text-xl text-gray-400 max-w-3xl mb-12">
-            Qube IT consulting is a trusted advisory firm helping organizations
+            Kolodis IT Services is a trusted advisory firm helping organizations
             navigate complex business challenges with confidence, integrity,
             and expertise. We partner with leaders to unlock sustainable growth,
             drive transformation, and deliver measurable outcomes.
@@ -31,7 +31,7 @@ export default function About() {
                 Who We Are
               </h3>
               <p className="text-gray-400 leading-relaxed">
-                Founded by experienced consultants, Qube IT consulting combines
+                Founded by experienced consultants, Kolodis IT Services combines
                 strategic insight, technical expertise, and pragmatic execution.
                 We work closely with executives, founders, and leadership teams
                 across industries to solve complex problems and enable long-term
@@ -88,11 +88,11 @@ export default function About() {
             <h3 className="text-2xl font-semibold mb-4 text-white">
               Why{" "}
               <span className="bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
-                Qube IT consulting
+                Kolodis IT Services
               </span>
             </h3>
             <p className="text-gray-400 leading-relaxed">
-              Clients choose Qube IT consulting for our ability to balance
+              Clients choose Kolodis IT Services for our ability to balance
               strategic thinking with hands-on execution. We bring clarity to
               ambiguity, structure to complexity, and momentum to change—helping
               organizations move forward with confidence.
