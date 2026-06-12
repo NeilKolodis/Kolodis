@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
 import useTheme from "../hooks/useTheme"
-import logo from "../assets/QubeITLogo.png"
+import logo from "../assets/KolodisITLogo.png"
 
 export default function Navbar() {
   const [theme, setTheme] = useTheme()
@@ -16,7 +16,7 @@ export default function Navbar() {
 <Link to="/" className="flex items-center gap-2">
   <img 
     src={logo} 
-    alt="Qube IT consulting logo" 
+    alt="Kolodis IT Services logo" 
     className="h-8 w-auto drop-shadow-[0_0_8px_rgba(16,185,129,0.6)] hover:drop-shadow-[0_0_16px_rgba(16,185,129,0.9)] transition"
   />
 </Link>
