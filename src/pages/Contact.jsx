@@ -4,14 +4,14 @@ import Reveal from "../components/Reveal"
 export default function Contact() {
   return (
     <MainLayout>
-      <div className="px-6 py-20">
+      <div className="px-6 py-20 bg-[#020617] min-h-screen text-white">
         <div className="max-w-7xl mx-auto">
 
           {/* 🔥 Header */}
           <Reveal>
-            <h2 className="text-4xl font-bold mb-6 text-white">
+            <h2 className="text-4xl font-bold mb-6">
               Contact{" "}
-              <span className="bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
                 Us
               </span>
             </h2>
@@ -28,7 +28,7 @@ export default function Contact() {
             {/* 📩 Contact Info */}
             <Reveal>
               <div className="card">
-                <h3 className="bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent mb-4 text-lg font-semibold">
+                <h3 className="bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent mb-4 text-lg font-semibold">
                   Get in Touch
                 </h3>
 
@@ -56,7 +56,7 @@ export default function Contact() {
                     name="name"
                     placeholder="Your Name"
                     required
-                    className="w-full p-3 bg-[#020617] border border-white/10 rounded text-white placeholder-gray-500 focus:border-sky-400 outline-none transition"
+                    className="w-full p-3 bg-[#020617] border border-white/10 rounded text-white placeholder-gray-500 focus:border-red-400 outline-none transition"
                   />
 
                   {/* Email */}
@@ -65,7 +65,7 @@ export default function Contact() {
                     name="email"
                     placeholder="Your Email"
                     required
-                    className="w-full p-3 bg-[#020617] border border-white/10 rounded text-white placeholder-gray-500 focus:border-sky-400 outline-none transition"
+                    className="w-full p-3 bg-[#020617] border border-white/10 rounded text-white placeholder-gray-500 focus:border-red-400 outline-none transition"
                   />
 
                   {/* Message */}
@@ -74,13 +74,13 @@ export default function Contact() {
                     rows="5"
                     placeholder="Your Message"
                     required
-                    className="w-full p-3 bg-[#020617] border border-white/10 rounded text-white placeholder-gray-500 focus:border-sky-400 outline-none transition"
+                    className="w-full p-3 bg-[#020617] border border-white/10 rounded text-white placeholder-gray-500 focus:border-red-400 outline-none transition"
                   ></textarea>
 
-                  {/* 🔘 Button */}
+                  {/* 🔴 Button */}
                   <button
                     type="submit"
-                    className="w-full px-6 py-3 rounded-lg font-medium text-white bg-gradient-to-r from-emerald-500 to-sky-500 hover:from-emerald-400 hover:to-sky-400 transition shadow-[0_0_25px_rgba(56,189,248,0.4)]"
+                    className="w-full px-6 py-3 rounded-lg font-medium text-white bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-400 hover:to-orange-400 transition shadow-[0_0_25px_rgba(239,68,68,0.4)]"
                   >
                     Send Message
                   </button>
