@@ -7,18 +7,18 @@ export default function Footer() {
       
       <div className="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-4 gap-10">
 
-        {/* 🌿 Brand */}
+        {/* 🔴 Brand */}
         <div>
-  <img 
-    src={logo} 
-    alt="Kolodis IT Services logo" 
-    className="h-16 w-auto drop-shadow-[0_0_8px_rgba(16,185,129,0.6)]"
-  />
-  <p className="text-sm text-gray-400">
-    Strategic consulting for sustainable growth. Helping businesses
-    transform, scale, and succeed.
-  </p>
-</div>
+          <img 
+            src={logo} 
+            alt="Kolodis IT Services logo" 
+            className="h-16 w-auto drop-shadow-[0_0_10px_rgba(239,68,68,0.6)]"
+          />
+          <p className="text-sm text-gray-400 mt-4">
+            Strategic consulting for sustainable growth. Helping businesses
+            transform, scale, and succeed.
+          </p>
+        </div>
 
         {/* 🔗 Navigation */}
         <div>
@@ -26,10 +26,10 @@ export default function Footer() {
             Company
           </h3>
           <div className="space-y-2 text-gray-400 text-sm">
-            <Link to="/" className="block hover:text-emerald-400">Home</Link>
-            <Link to="/about" className="block hover:text-emerald-400">About</Link>
-            <Link to="/services" className="block hover:text-emerald-400">Services</Link>
-            <Link to="/case-studies" className="block hover:text-emerald-400">Case Studies</Link>
+            <Link to="/" className="block hover:text-red-400 transition">Home</Link>
+            <Link to="/about" className="block hover:text-red-400 transition">About</Link>
+            <Link to="/services" className="block hover:text-red-400 transition">Services</Link>
+            <Link to="/case-studies" className="block hover:text-red-400 transition">Case Studies</Link>
           </div>
         </div>
 
@@ -54,7 +54,7 @@ export default function Footer() {
           </p>
           <Link
             to="/contact"
-            className="inline-block bg-emerald-500 hover:bg-emerald-400 text-white px-5 py-2 rounded-lg text-sm transition shadow-[0_0_20px_rgba(16,185,129,0.4)]"
+            className="inline-block px-5 py-2 rounded-lg text-sm font-medium text-white bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-400 hover:to-orange-400 transition shadow-[0_0_20px_rgba(239,68,68,0.4)]"
           >
             Contact Us
           </Link>
