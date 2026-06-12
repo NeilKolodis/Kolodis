@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import logo from "../assets/QubeITLogo.png"
+import logo from "../assets/KolodisITLogo.png"
 
 export default function Footer() {
   return (
@@ -11,7 +11,7 @@ export default function Footer() {
         <div>
   <img 
     src={logo} 
-    alt="Qube IT consulting logo" 
+    alt="Kolodis IT Services logo" 
     className="h-8 w-auto drop-shadow-[0_0_8px_rgba(16,185,129,0.6)]"
   />
   <p className="text-sm text-gray-400">
@@ -39,7 +39,7 @@ export default function Footer() {
             Contact
           </h3>
           <div className="text-sm text-gray-400 space-y-2">
-            <p>contact@qubeitconsulting.com</p>
+            <p>contact@kolodis.com</p>
             <p>UK / Europe / US</p>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function Footer() {
 
       {/* 🔻 Bottom Bar */}
       <div className="border-t border-white/10 text-center text-sm text-gray-500 py-6">
-        © {new Date().getFullYear()} Qube IT consulting. All rights reserved.
+        © {new Date().getFullYear()} Kolodis IT Services. All rights reserved.
       </div>
 
     </footer>
