@@ -3,14 +3,17 @@ import MainLayout from "../layouts/MainLayout"
 export default function About() {
   return (
     <MainLayout>
-      <div className="px-6 py-20">
+      <div className="px-6 py-20 bg-[#020617] min-h-screen text-white relative">
         
-        <div className="max-w-7xl mx-auto">
+        {/* 🔴 Subtle background glow */}
+        <div className="absolute inset-0 bg-gradient-to-r from-red-500/5 to-orange-500/5 blur-3xl opacity-40"></div>
+
+        <div className="max-w-7xl mx-auto relative z-10">
 
           {/* 🔥 Page Title */}
-          <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white">
+          <h2 className="text-4xl md:text-5xl font-bold mb-8">
             About{" "}
-            <span className="bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
               Kolodis IT Services
             </span>
           </h2>
@@ -27,7 +30,7 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-8 mb-16">
             
             <div className="card">
-              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
                 Who We Are
               </h3>
               <p className="text-gray-400 leading-relaxed">
@@ -40,7 +43,7 @@ export default function About() {
             </div>
 
             <div className="card">
-              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
                 What We Do
               </h3>
               <p className="text-gray-400 leading-relaxed">
@@ -55,9 +58,9 @@ export default function About() {
 
           {/* 💎 Values Section */}
           <div className="mb-16">
-            <h3 className="text-2xl font-semibold mb-6 text-white">
+            <h3 className="text-2xl font-semibold mb-6">
               Our{" "}
-              <span className="bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
                 Values
               </span>
             </h3>
@@ -71,7 +74,7 @@ export default function About() {
                 "Impact"
               ].map((val, i) => (
                 <div key={i} className="card text-sm">
-                  <h4 className="font-semibold mb-2 bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
+                  <h4 className="font-semibold mb-2 bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
                     {val}
                   </h4>
                   <p className="text-gray-400">
@@ -85,9 +88,9 @@ export default function About() {
 
           {/* 💎 Closing Section */}
           <div className="max-w-3xl card">
-            <h3 className="text-2xl font-semibold mb-4 text-white">
+            <h3 className="text-2xl font-semibold mb-4">
               Why{" "}
-              <span className="bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
                 Kolodis IT Services
               </span>
             </h3>
