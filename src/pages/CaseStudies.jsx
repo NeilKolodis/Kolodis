@@ -4,14 +4,17 @@ import MainLayout from "../layouts/MainLayout"
 export default function CaseStudies() {
   return (
     <MainLayout>
-      <div className="px-6 py-20">
+      <div className="px-6 py-20 bg-[#020617] min-h-screen text-white relative">
         
-        <div className="max-w-7xl mx-auto">
+        {/* 🔴 Background Glow */}
+        <div className="absolute inset-0 bg-gradient-to-r from-red-500/5 to-orange-500/5 blur-3xl opacity-40"></div>
+
+        <div className="max-w-7xl mx-auto relative z-10">
 
           {/* 🔥 Header */}
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Case{" "}
-            <span className="bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
               Studies
             </span>
           </h2>
@@ -25,7 +28,7 @@ export default function CaseStudies() {
           <div className="grid md:grid-cols-3 gap-8">
 
             {/* 🚀 Case 1 */}
-            <div className="card">
+            <div className="card hover:shadow-[0_10px_30px_rgba(239,68,68,0.15)] transition">
               <CaseStudyCard
                 title="AI-Driven Customer Insights Platform"
                 client="Retail & E-commerce Group (UK)"
@@ -35,7 +38,7 @@ export default function CaseStudies() {
             </div>
 
             {/* 🚀 Case 2 */}
-            <div className="card">
+            <div className="card hover:shadow-[0_10px_30px_rgba(239,68,68,0.15)] transition">
               <CaseStudyCard
                 title="Cloud Migration & Cost Optimization"
                 client="Global SaaS Company"
@@ -45,7 +48,7 @@ export default function CaseStudies() {
             </div>
 
             {/* 🚀 Case 3 */}
-            <div className="card">
+            <div className="card hover:shadow-[0_10px_30px_rgba(239,68,68,0.15)] transition">
               <CaseStudyCard
                 title="End-to-End Digital Transformation"
                 client="Financial Services Firm (EU)"
@@ -55,7 +58,7 @@ export default function CaseStudies() {
             </div>
 
             {/* 🚀 Case 4 */}
-            <div className="card">
+            <div className="card hover:shadow-[0_10px_30px_rgba(239,68,68,0.15)] transition">
               <CaseStudyCard
                 title="Data Strategy & Business Intelligence"
                 client="Healthcare Organization"
@@ -65,7 +68,7 @@ export default function CaseStudies() {
             </div>
 
             {/* 🚀 Case 5 */}
-            <div className="card">
+            <div className="card hover:shadow-[0_10px_30px_rgba(239,68,68,0.15)] transition">
               <CaseStudyCard
                 title="Scaling Engineering Teams & Delivery"
                 client="High-Growth Tech Startup"
@@ -75,7 +78,7 @@ export default function CaseStudies() {
             </div>
 
             {/* 🚀 Case 6 */}
-            <div className="card">
+            <div className="card hover:shadow-[0_10px_30px_rgba(239,68,68,0.15)] transition">
               <CaseStudyCard
                 title="Operational Efficiency Transformation"
                 client="Logistics & Supply Chain Company"
