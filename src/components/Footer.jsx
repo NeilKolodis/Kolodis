@@ -12,7 +12,7 @@ export default function Footer() {
   <img 
     src={logo} 
     alt="Kolodis IT Services logo" 
-    className="h-8 w-auto drop-shadow-[0_0_8px_rgba(16,185,129,0.6)]"
+    className="h-16 w-auto drop-shadow-[0_0_8px_rgba(16,185,129,0.6)]"
   />
   <p className="text-sm text-gray-400">
     Strategic consulting for sustainable growth. Helping businesses
