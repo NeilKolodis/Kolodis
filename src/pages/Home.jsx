@@ -12,8 +12,8 @@ export default function Home() {
         {/* 🔥 Hero Section */}
         <section className="hero-bg relative overflow-hidden">
           
-          {/* 🌿🔵 Dual Glow */}
-          <div className="absolute inset-0 bg-gradient-to-r from-red-500/10 to-orange-500/10 blur-3xl opacity-30"></div>
+          {/* 🔴 PREMIUM RED GLOW */}
+          <div className="absolute inset-0 bg-gradient-to-r from-red-500/10 to-orange-500/10 blur-3xl opacity-40"></div>
 
           {/* ✨ Floating particles */}
           <div className="absolute inset-0 z-0">
@@ -35,7 +35,7 @@ export default function Home() {
             <Reveal>
               <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
                 Strategic Consulting for
-                <span className="bg-gradient-to-r from-emerald-400 via-sky-400 to-sky-500 bg-clip-text text-transparent ml-2">
+                <span className="bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent ml-2">
                   Sustainable Growth
                 </span>
               </h1>
@@ -51,13 +51,13 @@ export default function Home() {
             <Reveal delay={0.4}>
               <div className="flex justify-center gap-4 flex-wrap">
                 
-                {/* 🌿🔵 Gradient Button */}
-                <button className="px-6 py-3 rounded-lg font-medium text-white bg-gradient-to-r from-emerald-500 to-sky-500 hover:from-emerald-400 hover:to-sky-400 transition shadow-[0_0_25px_rgba(56,189,248,0.4)]">
+                {/* 🔴 PRIMARY BUTTON */}
+                <button className="px-6 py-3 rounded-lg font-medium text-white bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-400 hover:to-orange-400 transition shadow-[0_0_25px_rgba(239,68,68,0.4)]">
                   Get Started
                 </button>
 
-                {/* 🔘 Secondary Button */}
-                <button className="border border-white/20 hover:border-sky-400 px-6 py-3 rounded-lg transition hover:shadow-[0_0_25px_rgba(56,189,248,0.3)]">
+                {/* 🔘 SECONDARY BUTTON */}
+                <button className="border border-white/20 hover:border-red-400 px-6 py-3 rounded-lg transition hover:shadow-[0_0_20px_rgba(239,68,68,0.3)]">
                   Learn More
                 </button>
 
@@ -70,8 +70,8 @@ export default function Home() {
         {/* 💎 Metrics Section */}
         <section className="relative px-6 py-20">
           
-          {/* 🌿🔵 Glow */}
-          <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/5 to-sky-500/5 blur-3xl opacity-40"></div>
+          {/* 🔴 SUBTLE RED GLOW */}
+          <div className="absolute inset-0 bg-gradient-to-r from-red-500/5 to-orange-500/5 blur-3xl opacity-40"></div>
 
           <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 relative z-10">
             
@@ -100,7 +100,7 @@ export default function Home() {
               <div className="text-center mb-14">
                 <h2 className="text-3xl md:text-4xl font-bold text-white">
                   Our{" "}
-                  <span className="bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
+                  <span className="bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
                     Expertise
                   </span>
                 </h2>
