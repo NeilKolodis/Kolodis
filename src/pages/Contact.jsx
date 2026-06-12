@@ -33,7 +33,7 @@ export default function Contact() {
                 </h3>
 
                 <p className="text-gray-400">
-                  contact@qubeitconsulting.com
+                  contact@kolodis.com
                 </p>
               </div>
             </Reveal>
