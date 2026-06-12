@@ -76,10 +76,10 @@ export default function Home() {
           <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 relative z-10">
             
             {[
-              { value: 8, label: "Years Experience" },
-              { value: 40, label: "Projects Delivered" },
-              { value: 98, label: "Client Satisfaction", suffix: "%" },
-              { value: 8, label: "Countries Served" }
+              { value: 17, label: "Years Experience" },
+              { value: 100, label: "Projects Delivered" },
+              { value: 97, label: "Client Satisfaction", suffix: "%" },
+              { value: 12, label: "Countries Served" }
             ].map((item, i) => (
               <Reveal key={i} delay={i * 0.1}>
                 <div className="card text-center">
