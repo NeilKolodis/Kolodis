@@ -43,7 +43,7 @@ export default function Home() {
 
             <Reveal delay={0.2}>
               <p className="text-lg md:text-2xl opacity-90 max-w-3xl mx-auto mb-8">
-                Qube IT consulting partners with organizations to deliver clarity,
+                Kolodis IT Services partners with organizations to deliver clarity,
                 transformation, and measurable impact.
               </p>
             </Reveal>
