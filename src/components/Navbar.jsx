@@ -17,7 +17,7 @@ export default function Navbar() {
   <img 
     src={logo} 
     alt="Kolodis IT Services logo" 
-    className="h-8 w-auto drop-shadow-[0_0_8px_rgba(16,185,129,0.6)] hover:drop-shadow-[0_0_16px_rgba(16,185,129,0.9)] transition"
+    className="h-16 w-auto drop-shadow-[0_0_8px_rgba(16,185,129,0.6)] hover:drop-shadow-[0_0_16px_rgba(16,185,129,0.9)] transition"
   />
 </Link>
         {/* 💻 Desktop Menu */}
