@@ -31,4 +31,3 @@ export default function CaseStudyCard({ title, client, problem, impact }) {
     </div>
   )
 }
-``
