@@ -13,7 +13,7 @@ export default function Home() {
         <section className="hero-bg relative overflow-hidden">
           
           {/* 🌿🔵 Dual Glow */}
-          <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-sky-500/10 blur-3xl opacity-30"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-red-500/10 to-orange-500/10 blur-3xl opacity-30"></div>
 
           {/* ✨ Floating particles */}
           <div className="absolute inset-0 z-0">
