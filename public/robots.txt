@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://qubeitconsulting.com/sitemap.xml
+Sitemap: https://kolodis.com/sitemap.xml
